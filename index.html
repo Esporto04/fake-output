@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Fake Outputs</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- HOME -->
+    <div id="home" class="home">
+        <h1>Fake Outputs</h1>
+        <div class="cardBox">
+            <div class="card" onclick="openPage('linuxPage')">Linux</div>
+            <div class="card" onclick="openPage('turboPage')">Turbo C</div>
+        </div>
+    </div>
+
+    <!-- LINUX PAGE -->
+    <div id="linuxPage" class="page">
+        <div class="topBar">
+            <button onclick="goHome()">Back</button>
+            <button onclick="setColor('green')">Green</button>
+            <button onclick="setColor('blue')">Blue</button>
+            <button onclick="setColor('red')">Red</button>
+            <button onclick="setColor('white')">White</button>
+        </div>
+        <div id="linuxTerminal" class="terminal" contenteditable="true">
+Ubuntu 22.04 LTS
+        </div>
+    </div>
+
+    <!-- TURBO PAGE -->
+    <div id="turboPage" class="page">
+        <div class="menuBar">
+            <span class="menuIcon">≡</span>
+            <span class="menuRed">File</span> Edit Search Run Compile Debug Project Options Window Help
+        </div>
+        <!-- PERFECT CENTERED HEADER -->
+        <div class="turboTop">
+            <span class="greenMark">◢</span>
+            <div class="line"></div>
+            <span class="title">Output</span>
+            <div class="line"></div>
+            <span class="greenMark2">◣</span>
+        </div>
+        <div class="turboFrame">
+            <div id="turboTerminal" contenteditable="true">
+3TC
+            </div>
+            <div class="scrollBar"></div>
+        </div>
+        <div class="bottomBar">
+            <span class="red">F1</span> Help | Scroll
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
