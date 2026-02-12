@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    font-family: 'Courier New', monospace;
+    background: #111;
+    color: white;
+}
+
+/* HOME */
+.home {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #ff0080, #00c6ff, #7928ca);
+}
+
+.cardBox {
+    display: flex;
+    gap: 40px;
+}
+
+.card {
+    padding: 40px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* PAGE */
+.page {
+    display: none;
+    height: 100vh;
+    background: black;
+}
+
+.topBar {
+    padding: 10px;
+    background: #111;
+}
+
+/* LINUX TERMINAL */
+.terminal {
+    background: #300a24;
+    height: 90vh;
+    padding: 15px;
+    outline: none;
+    white-space: pre-wrap;
+}
+
+/* TURBO UI */
+.menuBar {
+    background: #e6e6e6;
+    color: black;
+    padding: 4px;
+    font-weight: bold;
+}
+
+.menuRed { color: red; }
+.menuIcon { color: #c00; margin-right: 10px; }
+
+.turboTop {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 3px 10px;
+    font-weight: bold;
+    color: white;
+}
+
+.turboTop .line {
+    flex: 1;
+    border-top: 2px solid white;
+}
+
+.greenMark { color: #00ff00; }
+.title { white-space: nowrap; }
+
+.turboFrame {
+    margin: 10px;
+    outline: 3px solid white;
+    display: flex;
+    height: 70vh;
+    background: black;
+}
+
+#turboTerminal {
+    flex: 1;
+    padding: 15px;
+    outline: none;
+    white-space: pre-wrap;
+    color: #c0c0c0;
+}
+
+.scrollBar {
+    width: 14px;
+    background: #00aaff;
+}
+
+.bottomBar {
+    background: #ccc;
+    color: black;
+    padding: 4px;
+}
+
+.red { color: red; }
+.green { color: #00ff00; }
+.blue { color: #4aa3ff; }
